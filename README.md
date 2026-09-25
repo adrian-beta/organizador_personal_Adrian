@@ -6,3 +6,6 @@
 6. Autor
 
 Estado:
+
+## Colaboracion 
+Ricardo Soto Cortes
