@@ -3,3 +3,4 @@
 3. Modificar tareas.
 4. Marcar tareas como terminadas.
 5. Registrar notas.
+6. Consultar notas.
