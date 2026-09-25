@@ -6,6 +6,8 @@
 6. Autor
 
 Estado:
+En preparacion de las nuevas funciones
 
 ## Colaboracion 
+
 Ricardo Soto Cortes
