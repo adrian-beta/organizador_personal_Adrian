@@ -1,0 +1,1 @@
+La práctica consiste en que cada integrante cree su propio repositorio y después trabajen entre ustedes haciendo un fork y un Pull Request. La idea principal es practicar el uso de Visual Studio Code, los entornos virtuales, las dependencias, Git y GitHub, sin enfocarse tanto en la programación.
