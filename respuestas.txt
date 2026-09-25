@@ -1,0 +1,46 @@
+1. ¿Cuál es la diferencia entre un repositorio local y uno remoto?
+
+Local: esta almacenado en tu computadora lo que permite trabajar sin conexion.
+
+Remoto: esta almacenado en un servidor.
+
+2. ¿Cuál es la diferencia entre commit y push?
+
+Commit: guarda los cambios realizados en el repositorio local.
+
+Push: envía esos cambios desde el repositorio local al repositorio remoto.
+
+3. ¿Para qué sirve .gitignore?
+Sirve para indicar a Git qué archivos o carpetas debe ignorar y no incluir en el repositorio, 
+como archivos temporales, contraseñas o entornos virtuales.
+
+4. ¿Por qué .venv no se almacena normalmente en GitHub?
+Porque contiene el entorno virtual de Python con dependencias instaladas localmente. 
+Puede ocupar mucho espacio y variar entre computadoras. En su lugar, se utiliza requirements.txt 
+para indicar qué paquetes necesita el proyecto.
+
+5. ¿Para qué sirve requirements.txt?
+Contiene la lista de dependencias de Python que necesita el proyecto, normalmente con sus versiones. 
+Permite que otra persona pueda instalarlas fácilmente con pip install -r requirements.txt.
+
+6. ¿Cuál es la diferencia entre fork y clone?
+
+Fork: crea una copia de un repositorio remoto en tu propia cuenta de GitHub.
+
+Clone: descarga un repositorio remoto en tu computadora para poder trabajar con él localmente.
+
+7. ¿Por qué conviene crear una rama antes de modificar el proyecto?
+Porque permite realizar cambios de forma aislada sin afectar directamente la rama principal. 
+Así se pueden probar modificaciones y revisarlas antes de integrarlas al proyecto.
+
+8. ¿Qué función cumple un Pull Request?
+Permite proponer que los cambios realizados en una rama se incorporen a otra rama, normalmente main. 
+También facilita que otros integrantes revisen y comenten los cambios.
+
+9. ¿Qué se revisa antes de realizar un merge?
+Se revisa que el código funcione correctamente, que las pruebas pasen, que no existan conflictos 
+y que los cambios cumplan con los objetivos del proyecto.
+
+10. ¿Por qué, después del merge en GitHub, se utiliza git pull en el repositorio local?
+Porque el repositorio remoto ya contiene los cambios del merge. git pull descarga esos cambios 
+y actualiza el repositorio local para que ambos estén sincronizados.
